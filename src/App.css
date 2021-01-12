@@ -1,0 +1,236 @@
+header {
+  text-align: center;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 40px 20px;
+  color: black;
+}
+
+h1 a {
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+.app-window {
+  display: flex;
+}
+
+.side-bar-section {
+  flex: 1;
+}
+
+.main {
+  flex: 2;
+}
+
+a {
+  color: Black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.folder-link:hover {
+  background-color: slategrey;
+  color: White;
+}
+
+/* sidebar stylings */
+
+.selected {
+  background-color: blue !important;
+  border: 3px solid black;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-bar button {
+  margin: 0px 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.folder-link {
+  margin: 20px 10px;
+  padding-top: 15px;
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.note-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-bar h2 {
+  background-color: rgb(0, 4, 255);
+  width: 200px;
+  height: 50px;
+  padding-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.note-bar button {
+  margin: 20px 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+/* note stylings */
+
+.add-note {
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.add-note a {
+  color: black;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0px 15px 15px 15px;
+  background-color: lightgray;
+  border-radius: 5px;
+  min-width: 500px;
+}
+
+.note-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.note button {
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.add-note a {
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.add-note a:hover {
+  background-color: transparent;
+}
+
+/* add folder page styles */
+
+.add-folder {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.folder-add-form {
+  background-color: rgb(146, 146, 255);
+  border-radius: 10px;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.folder-add-form input {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.submit-folder {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.back-button {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* add note page styles */
+
+.add-note-comp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.add-note-comp form {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-add-form {
+  background-color: rgb(146, 146, 255);
+  border-radius: 10px;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.note-add-form input,
+select,
+textarea {
+  font-size: 20px;
+}
+
+.submit-note {
+  margin-top: 10px;
+  font-size: 20px;
+  height: 50px;
+  max-width: 300px;
+}
+
+.back-button {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.submit-note-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
